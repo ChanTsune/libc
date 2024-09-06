@@ -2,6 +2,26 @@
 
 ## [Unreleased]
 
+## [0.2.159](https://github.com/rust-lang/libc/compare/0.2.158...0.2.159) - 2024-09-06
+
+### Other
+- Revise network definitions for HorizonOS
+- Merge pull request [#3900](https://github.com/rust-lang/libc/pull/3900) from tgross35/espid-cherry-pick
+- Change signal constants to c_int on espidf
+- Add wasm32-wasip2 definitions necessary for std::net support
+- Add missing NOTE_MACHTIME and NOTE_MACH_CONTINUOUS_TIME constants to apple.
+- linux adding new syscall SYS_mseal for x86_64 glibc/musl.
+- adding new syscall id fchmodat2 for glibc/musl x86 (kernel >= 6.6).
+- Merge pull request [#3877](https://github.com/rust-lang/libc/pull/3877) from tgross35/backport-butternut
+- Add `wasm32-wasip2` to the test matrix on CI
+- Re-enable testing of WASI on CI
+- Merge pull request [#3873](https://github.com/rust-lang/libc/pull/3873) from tgross35/backport-cilantro
+- Add functions from vxCpuLib.h and taskLib.h
+- add missing symbols for HermitOS
+- add missing error numbers for HermitOS
+- Add android-riscv64 API check
+- Add missing constant for Android
+
 ## [0.2.158](https://github.com/rust-lang/libc/compare/0.2.157...0.2.158) - 2024-08-19
 
 ### Other
