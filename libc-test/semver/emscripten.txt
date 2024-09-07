@@ -1,2 +1,6 @@
 getentropy
 posix_fallocate64
+getpwnam_r
+getpwuid_r
+getgrgid_r
+getgrnam_r
